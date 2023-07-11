@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고슴도치 lab</title>
+</head>
+<body>
+    <h1>고슴도치의 꿈 찾기</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>
+                기본정보
+            </legend>
+            <p>
+        <label for="id">아이디 : <input type="text" id="id" placeholder="아이디를 입력하세요" ></label>
+        <label for="pw">비밀번호 : <input type="password" id="pw" placeholder="비밀번호를 입력하세요" ></label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                신상정보
+            </legend>
+            <p>
+        <label for="intro">자기소개 : <textarea name="intro" id="intro" ></textarea></label>
+        <label for="re"> 추천인 : <input type="text" id="re" ></label>
+        <br><br>
+
+        <label for="city">지역 : 
+        <select name="city" id="city" size="3" >
+            <optgroup label="성남시">
+                <option value="중원구">중원구</option>
+                <option value="분당구" selected>분당구</option>
+                <option value="수정구">수정구</option>
+            </optgroup>
+        </select>
+        </label>
+        </fieldset>
+        <button type="submit">
+            <img src="분홍 오리너구리 로고.png" width="50" height="50" alt="입장">
+            고슴도치 블로그에 입장하기
+        </button>
+    </form>
+    <table>
+        <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1,500원</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td rowspan="2">2,000원</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>1개</td>
+        </tr>
+        <tr>
+            <td>총 금액</td>
+            <td colspan="3">&nbsp; &nbsp; 6,500원</td>
+        </tr>
+    </table>
+</body>
+</html>
